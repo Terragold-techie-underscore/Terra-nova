@@ -1,0 +1,22 @@
+{
+    "type": "CoreBlock",
+    "name": "Ember Core",
+    "description": "The basic Coal Coalition core. Houses a unit that wields experimental fire-laser technology.",
+    "size": 3,
+    "health": 2000,
+    "itemCapacity": 3000,
+    "unitType": "ember-guard",
+    "requirements": [
+        {"item": "coal", "amount": 1000},
+        {"item": "graphite", "amount": 800}
+    ],
+    "category": "effect",
+    "research": {
+        "root": true,
+        "name": "Coal Coalition",
+        "planet": "serpulo",
+        "requirements": [
+            {"item": "coal", "amount": 500}
+        ]
+    }
+}
