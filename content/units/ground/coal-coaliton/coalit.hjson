@@ -1,8 +1,8 @@
 {
     "type": "legs",
-    "name": "Ember Guard",
+    "name": "Coalit",
     "description": "Coal Coalition's core unit. Spider-like walker equipped with experimental fire-laser weaponry and thermal shielding.",
-    "health": 220,
+    "health": 440,
     "armor": 2,
     "speed": 0.8,
     "buildSpeed": 1.1,
