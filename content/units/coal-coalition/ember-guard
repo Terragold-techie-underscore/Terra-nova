@@ -1,0 +1,46 @@
+{
+    "type": "legs",
+    "name": "Ember Guard",
+    "description": "Coal Coalition's core unit. Spider-like walker equipped with experimental fire-laser weaponry and thermal shielding.",
+    "health": 220,
+    "armor": 2,
+    "speed": 0.8,
+    "buildSpeed": 1.1,
+    "rotateSpeed": 3,
+    "legCount": 6,
+    "legLength": 8,
+    "legSpeed": 0.2,
+    "legForwardScl": 0.6,
+    "legMoveSpace": 1.4,
+    "hovering": true,
+    "abilities": [{
+        "type": "ForceFieldAbility",
+        "radius": 40,
+        "regen": 0.4,
+        "max": 400,
+        "cooldown": 60,
+        "sides": 6,
+        "color": "ffc45a"
+    }],
+    "weapons": [{
+        "name": "fire-beam",
+        "top": true,
+        "x": 0,
+        "y": 0,
+        "reload": 20,
+        "continuous": true,
+        "shootSound": "laser",
+        "bullet": {
+            "type": "ContinuousLaserBulletType",
+            "damage": 12,
+            "length": 150,
+            "width": 2,
+            "lifetime": 60,
+            "colors": ["ff9c5a", "ff5d24", "ff0000"],
+            "hitEffect": "hitFlameSmall",
+            "shootEffect": "hitFlameSmall",
+            "status": "burning",
+            "statusDuration": 120
+        }
+    }]
+}
